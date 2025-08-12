@@ -2,7 +2,6 @@
  * Creational Design Pattern: Singleton
  *
  * - Only one instance of the class should exist.
- * - Other classes should be able to get the instance of the Singleton class.
  * - Commonly used in Logging, Cache, Session, Drivers.
  *
  * Initialization methods:
@@ -16,6 +15,12 @@
  *    - Instance is created in a synchronized manner but only locks the first time.
  *
  * Best method: 4 (Thread Safe with synchronized block).
+ *
+ * How we will implement this?
+ *
+ * 1. Create a private constructor to prevent instantiation from outside.
+ * 2. Create a private static variable to hold the single instance.
+ * 3. Provide a public static method to return the instance.
  */
 
 package com.designPatterns.creational;
