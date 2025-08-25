@@ -1,4 +1,4 @@
-package com.multiThreding;
+package com.multiThreading;
 
 public class Main {
 

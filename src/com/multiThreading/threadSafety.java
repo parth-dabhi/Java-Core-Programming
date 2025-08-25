@@ -4,7 +4,7 @@
         * Thread safety is achieved by synchronizing the methods or the block of code which should be executed by only one thread at a time.
         * Thread safety is achieved by using "synchronized" keyword.
 */
-package com.multiThreding;
+package com.multiThreading;
 
 class Counter {
     int count;

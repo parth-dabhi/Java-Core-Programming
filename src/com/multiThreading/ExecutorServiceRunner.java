@@ -14,7 +14,7 @@
     4. Executors (Class)
 */
 
-package com.multiThreding;
+package com.multiThreading;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

@@ -47,7 +47,7 @@
         * Thread safety is achieved by using "synchronized" keyword.
 */
 
-package com.multiThreding;
+package com.multiThreading;
 
 // Extending Thread class
 class Task1 extends Thread {

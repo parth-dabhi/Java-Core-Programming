@@ -4,7 +4,7 @@
     Ques : Callable and Future in Java
 */
 
-package com.multiThreding;
+package com.multiThreading;
 
 import java.util.concurrent.Callable;
 
